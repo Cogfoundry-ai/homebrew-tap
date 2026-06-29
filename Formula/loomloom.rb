@@ -1,25 +1,25 @@
 class Loomloom < Formula
   desc "Developer CLI for LoomLoom workflows"
   homepage "https://github.com/Cogfoundry-ai/loomloom"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Cogfoundry-ai/loomloom/releases/download/v0.1.1/loomloom-darwin-arm64.tar.gz"
-      sha256 "d99b61caadb20ac047d588638243c4a350b07d6cc268796549cbf51851cb4af9"
+      url "https://github.com/Cogfoundry-ai/loomloom/releases/download/v0.1.2/loomloom-darwin-arm64.tar.gz"
+      sha256 "866d627d3002d211c46d3401def45a24892a92c20ed95bdb3b78d9b598509b73"
     else
-      url "https://github.com/Cogfoundry-ai/loomloom/releases/download/v0.1.1/loomloom-darwin-amd64.tar.gz"
-      sha256 "f6ad36f25896bfd78d70eaed72905696c25c3d8690d7e8ed5ea688fadf2a8193"
+      url "https://github.com/Cogfoundry-ai/loomloom/releases/download/v0.1.2/loomloom-darwin-amd64.tar.gz"
+      sha256 "288f1a006d2e769d088489818d721b06ca727c0aee5d41b66c8c8a27fc5a7389"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Cogfoundry-ai/loomloom/releases/download/v0.1.1/loomloom-linux-arm64.tar.gz"
-      sha256 "715b2c0de4a5f606cc986f876bc11f498d96402585dc5361a99b3a1895e1e4c6"
+      url "https://github.com/Cogfoundry-ai/loomloom/releases/download/v0.1.2/loomloom-linux-arm64.tar.gz"
+      sha256 "9d815598944e956546bf156dee90e6707970fe664276c82a84483ab950d83aa3"
     else
-      url "https://github.com/Cogfoundry-ai/loomloom/releases/download/v0.1.1/loomloom-linux-amd64.tar.gz"
-      sha256 "01e01f20a6f8c2586d9c8aafd7ebdfa95469fc7d6d07b97ef1a1062422aca2e4"
+      url "https://github.com/Cogfoundry-ai/loomloom/releases/download/v0.1.2/loomloom-linux-amd64.tar.gz"
+      sha256 "2b714cbc84cd0608e778c894e3aa25e2491f74a7eed1bc52ab13ab16453a36d3"
     end
   end
 
